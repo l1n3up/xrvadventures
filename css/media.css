@@ -1,0 +1,1123 @@
+@media (max-width: 1268px) {
+    /* First section with menu and buttons */
+    body.lock {
+        overflow: hidden;
+    }
+
+    .xrv_container {
+        max-width: 660px;
+    }
+
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+
+    .header__burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger:before,
+    .header__burger:after {
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger:before {
+        top: 0;
+    }
+
+    .header__burger:after {
+        bottom: 0;
+    }
+
+    .header__burger.active {
+        position: fixed;
+        right: 95px;
+        top: 30px;
+        transition: 0.3s all ease-in-out;
+        z-index: 4;
+    }
+
+    .header__burger.active:before {
+        background-color: #000;
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header__burger.active:after {
+        background-color: #000;
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .header__burger.active span {
+        background-color: #000;
+        transform: scale(0);
+    }
+
+    .xrv_wrapper_elem__menu {
+        transition: all 0.5s ease-in-out 0s;
+        padding-top: 100px;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: -150%;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    .xrv_wrapper_elem__menu.active {
+        left: 0;
+    }
+
+    .xrv_menu__list {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .xrv_menu__list li {
+        margin-top: 30px;
+        color: #000;
+    }
+
+    .xrv_menu__list li a {
+        color: #000;
+    }
+
+    .xrv_menu__list li a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 0;
+        height: 2px;
+        background-color: #000;
+        transition: width 0.2s;
+    }
+
+    .xrv_menu__list li a:hover {
+        color: #000;
+    }
+
+    .xrv_intro {
+        margin-top: 120px;
+    }
+
+    .xrv_contacts__icons {
+        padding-bottom: 32px;
+    }
+
+    /* First section with menu and buttons */
+
+    /* we are xrv */
+
+    .we_are_xrv_titles {
+        padding-top: 120px;
+    }
+
+    .we_are_xrv_text p {
+        max-width: 630px;
+    }
+
+    /* we are xrv */
+
+    /* about us */
+
+    .about_us_container {
+        max-width: 676px;
+    }
+
+    .about_us_wrapper {
+        flex-direction: column;
+    }
+
+    .about_us__linear {
+        margin-top: -4px;
+        max-width: 100%;
+    }
+
+    .about_us__linear img {
+        object-fit: cover;
+        max-height: 282px;
+    }
+
+    .about_us__video {
+        margin-top: -100px;
+        text-align: center;
+    }
+
+    .about_us__video img{
+        max-width:676px;
+    }
+
+    /* about us */
+
+    /* get ready */
+
+    .get_ready_title h1 {
+        font-family: DM Serif Display;
+        font-size: 43px;
+        max-width: 699px;
+    }
+
+    .marquee_first {
+        margin-top: 75px;
+    }
+
+    .get_ready_properties_elem {
+        margin-top: 150px;
+        flex-direction: column;
+    }
+
+    .get_properties_elem__text {
+        margin-right: 0;
+        text-align: center;
+        max-width: 628px;
+    }
+
+    .get_properties_elem__vid{
+        margin-top: 90px;
+        max-width: 660px;
+    }
+
+    .grp_spec{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .get_ready_features{
+        padding-top: 0;
+    }
+
+    .get_ready_features_elem {
+        margin: 30px auto 0 auto;
+    }
+
+    .grp_el_text{
+        margin-top: 0;
+    }
+
+    .grp_el_text h1:first-child {
+        font-size: 59px;
+        font-weight: 400;
+        line-height: 76%;
+    }
+
+    .grp_el_text h1:last-of-type {
+        font-size: 57px;
+        font-weight: 700;
+        line-height: 76%;
+    }
+
+    /* get ready */
+
+    /* product lines */
+    .pl_background {
+        top: -780px;
+        max-height: 800px;
+    }
+
+    .product_lines_container {
+        max-width: 665px;
+    }
+    
+
+    .product_lines_text h1{
+        font-size: 100px;
+    }
+
+    .product_lines p{
+        margin-top: 30px;
+        font-size: 39px;
+    }
+
+    .product_lines span {
+        font-size: 39px;
+    }
+
+    .product_lines_wrapper{
+        margin-top: 0;
+    }
+
+    .product_lines_elem{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .product_lines_elem__img {
+        order:2;
+    }
+
+    .product_lines_elem__descr{
+        text-align: center;
+        max-width: none;
+    }
+
+    .product_lines_elem__descr h1{
+        margin-top: 60px;
+    }
+
+    .product_lines_elem_spec{
+        margin-top: 55px;
+    }
+
+    /* product lines */
+
+    /* complete independence */
+    .complete_independence_title{
+        padding-top: 645px;
+    }
+
+
+    .complete_independence_bg {
+        top: 800px;
+    }
+
+    .unlimited_facilities_wrapper {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .unlimited_facilites_elem{
+        margin-top: 80px;
+    }
+
+
+    .unlimited_parameters_wrapper{
+        margin-top: 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .unlimited_parameters_elem{
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+
+    /* complete independence */
+
+    /* design highlights */
+
+    .design_highlights_component{
+        margin-top: 30px;
+    }
+
+    .design_highlights_wrapper{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .component_spec_1{
+        margin-top: 30px;
+    }
+
+    .component_spec_3{
+        margin-top: 30px;
+    }
+
+    .comp_spec_marg {
+        margin-top: 30px;
+    }
+    /* design highlights */
+
+    /* car scheme */
+
+    .car_scheme_container {
+        max-width: 660px;
+    }
+
+    .car_slider_arrows {
+        margin-top: 0;
+    }
+
+    .car_arrow_right, .car_arrow_left{
+        padding: 20px;
+    }
+
+    /* car scheme */
+
+    /* floorplan */
+
+    .floorplan_wrapper{
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .floorplan_text {
+        max-width: 478px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .floorplan_slider_wrapper {
+        max-width: 660px;
+        margin: 40px auto 0  auto;
+    }
+
+    .floorplan_abstract_wrapper{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .fp_abstr_text {
+        margin-left: 0;
+        text-align: center;
+        max-width: 660px;
+    }
+
+    .floorplan_support{
+        margin: 85px auto 0 auto;
+    }
+
+
+
+    .many_others {
+        margin-top: 0;
+    }
+
+    .fog_title {
+        max-width: 600px;
+        margin: -108px auto 0 auto;
+    }
+
+    .fog_title h1{
+        color: #363636;
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 80%; /* 96px */
+        letter-spacing: -6px;
+      }
+      
+      .fog_title h1:nth-child(1){
+        font-family: DM Serif Display;
+      }
+      
+      .fog_title h1{
+        font-weight: 600;
+        font-family: Montserrat;
+      }
+
+
+
+    /* floorplan */
+
+    /* careers */
+
+    .careers_wrapper{
+        flex-direction: column;
+        margin-top: 230px;
+        text-align: center;
+    }
+
+    .careers_descr{
+        margin-top: 30px;
+    }
+
+    /* careers */
+
+    /* container */
+
+    .we_are_here_container {
+        max-width: 600px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    /* First section with menu and buttons */
+    body.lock {
+        overflow: hidden;
+    }
+
+    .xrv_container {
+        max-width: 660px;
+    }
+
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+
+    .header__burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger:before,
+    .header__burger:after {
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger:before {
+        top: 0;
+    }
+
+    .header__burger:after {
+        bottom: 0;
+    }
+
+    .header__burger.active {
+        position: fixed;
+        right: 95px;
+        top: 30px;
+        transition: 0.3s all ease-in-out;
+        z-index: 4;
+    }
+
+    .header__burger.active:before {
+        background-color: #000;
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header__burger.active:after {
+        background-color: #000;
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .header__burger.active span {
+        background-color: #000;
+        transform: scale(0);
+    }
+
+    .xrv_wrapper_elem__menu {
+        transition: all 0.5s ease-in-out 0s;
+        padding-top: 100px;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: -150%;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    .xrv_wrapper_elem__menu.active {
+        left: 0;
+    }
+
+    .xrv_menu__list {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .xrv_menu__list li {
+        margin-top: 30px;
+        color: #000;
+    }
+
+    .xrv_menu__list li a {
+        color: #000;
+    }
+
+    .xrv_menu__list li a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 0;
+        height: 2px;
+        background-color: #000;
+        transition: width 0.2s;
+    }
+
+    .xrv_menu__list li a:hover {
+        color: #000;
+    }
+
+    .xrv_intro {
+        margin-top: 120px;
+    }
+
+    .xrv_contacts__icons {
+        padding-bottom: 32px;
+    }
+
+    /* First section with menu and buttons */
+
+    /* we are xrv */
+
+    .we_are_xrv_titles {
+        padding-top: 120px;
+    }
+
+    .we_are_xrv_text p {
+        max-width: 630px;
+    }
+
+    /* we are xrv */
+
+    /* about us */
+
+    .about_us_container {
+        max-width: 676px;
+    }
+
+    .about_us_wrapper {
+        flex-direction: column;
+    }
+
+    .about_us__linear {
+        margin-top: -4px;
+        max-width: 100%;
+    }
+
+    .about_us__linear img {
+        object-fit: cover;
+        max-height: 282px;
+    }
+
+    .about_us__video {
+        margin-top: -100px;
+        text-align: center;
+    }
+
+    .about_us__video img{
+        max-width:676px;
+    }
+
+    /* about us */
+
+    /* get ready */
+
+    .get_ready_title h1 {
+        font-family: DM Serif Display;
+        font-size: 43px;
+        max-width: 699px;
+    }
+
+    .marquee_first {
+        margin-top: 75px;
+    }
+
+    .get_ready_properties_elem {
+        margin-top: 150px;
+        flex-direction: column;
+    }
+
+    .get_properties_elem__text {
+        margin-right: 0;
+        text-align: center;
+        max-width: 628px;
+    }
+
+    .get_properties_elem__vid{
+        margin-top: 90px;
+        max-width: 660px;
+    }
+
+    .grp_spec{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .get_ready_features{
+        padding-top: 0;
+    }
+
+    .get_ready_features_elem {
+        margin: 30px auto 0 auto;
+    }
+
+    .grp_el_text{
+        margin-top: 0;
+    }
+
+    .grp_el_text h1:first-child {
+        font-size: 59px;
+        font-weight: 400;
+        line-height: 76%;
+    }
+
+    .grp_el_text h1:last-of-type {
+        font-size: 57px;
+        font-weight: 700;
+        line-height: 76%;
+    }
+
+    /* get ready */
+
+    /* product lines */
+    .pl_background {
+        top: -540px;
+    }
+
+    .product_lines_container {
+        max-width: 665px;
+    }
+    
+
+    .product_lines_text h1{
+        font-size: 100px;
+    }
+
+    .product_lines p{
+        margin-top: 30px;
+        font-size: 39px;
+    }
+
+    .product_lines span {
+        font-size: 39px;
+    }
+
+    .product_lines_wrapper{
+        margin-top: 0;
+    }
+
+    .product_lines_elem{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .product_lines_elem__img {
+        order:2;
+    }
+
+    .product_lines_elem__descr{
+        text-align: center;
+        max-width: none;
+    }
+
+    .product_lines_elem__descr h1{
+        margin-top: 60px;
+    }
+
+    .product_lines_elem_spec{
+        margin-top: 55px;
+    }
+
+    /* product lines */
+
+    /* complete independence */
+
+    .complete_independence_bg {
+        top: 757px;
+    }
+
+    .unlimited_facilities_wrapper {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .unlimited_facilites_elem{
+        margin-top: 80px;
+    }
+
+    .unlimited_adapt h1,.unlimited_adapt p{
+        color: #363636;
+    }
+
+    .unlimited_parameters_wrapper{
+        margin-top: 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .unlimited_parameters_elem{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .unlimited_parameters_elem h1,.unlimited_parameters_elem span{
+        color: #363636;
+    }
+
+    .time_to_embrace h1{
+        color: #363636;
+    }
+    
+
+    /* complete independence */
+
+    /* design highlights */
+
+    .design_highlights_component{
+        margin-top: 30px;
+    }
+
+    .design_highlights_wrapper{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .component_spec_1{
+        margin-top: 30px;
+    }
+
+    .component_spec_3{
+        margin-top: 30px;
+    }
+
+    .comp_spec_marg {
+        margin-top: 30px;
+    }
+    /* design highlights */
+
+    /* car scheme */
+
+    .car_scheme_container {
+        max-width: 660px;
+    }
+
+    .car_slider_arrows {
+        margin-top: 0;
+    }
+
+    .car_arrow_right, .car_arrow_left{
+        padding: 20px;
+    }
+
+    /* car scheme */
+
+    /* floorplan */
+
+    .floorplan_wrapper{
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .floorplan_text {
+        max-width: 478px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .floorplan_slider_wrapper {
+        max-width: 660px;
+        margin: 40px auto 0  auto;
+    }
+
+    .floorplan_abstract_wrapper{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .fp_abstr_text {
+        margin-left: 0;
+        text-align: center;
+        max-width: 660px;
+    }
+
+    .floorplan_support{
+        margin: 85px auto 0 auto;
+    }
+
+
+
+    .many_others {
+        margin-top: 0;
+    }
+
+    .fog_title {
+        max-width: 600px;
+        margin: -108px auto 0 auto;
+    }
+
+    .fog_title h1{
+        color: #363636;
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 80%; /* 96px */
+        letter-spacing: -6px;
+      }
+      
+      .fog_title h1:nth-child(1){
+        font-family: DM Serif Display;
+      }
+      
+      .fog_title h1{
+        font-weight: 600;
+        font-family: Montserrat;
+      }
+
+
+
+    /* floorplan */
+
+    /* careers */
+
+    .careers_wrapper{
+        flex-direction: column;
+        margin-top: 230px;
+        text-align: center;
+    }
+
+    .careers_descr{
+        margin-top: 30px;
+    }
+
+    /* careers */
+
+    /* container */
+
+    .we_are_here_container {
+        max-width: 600px;
+    }
+}
+
+
+
+@media (max-width: 414px) {
+    .xrv {
+        background: url(../img/xrv_header/adapt/1Y7A1098u\ 1.png) no-repeat;
+        background-size: cover;
+    }
+    .xrv_container{
+        max-width: 376px;
+    }
+    .xrv_intro {
+        margin-top: 60px;
+    }
+    .xrv_intro_title_1{
+        font-size: 55px;
+    }
+    .xrv_intro_title_2{
+        margin-top: 25px;
+    }
+    .xrv_intro_img{
+        margin-top: 50px;
+    }
+
+    /* we are */
+    .we_are_title_1, .we_are_title_2{
+        font-size: 40px;
+    }
+
+    .we_are_xrv_text{
+        margin-top: 72px;
+    }
+
+    .we_are_xrv_text p {
+        max-width: 294px;
+        font-size: 15px;
+    }
+
+    /* about us */
+    .about_us_container{
+        max-width: 376px;
+    }
+
+    .about_us__text h1 {
+        line-height: 100%;
+    }
+
+    .about_us__video img{
+        max-width: 340px;
+    }
+    
+
+    /* get ready */
+
+    .get_ready_container {
+        max-width: 376px;
+    }
+
+    .get_ready_title h1{
+        max-width: 294px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .loop-container img {
+        width: 270px;
+        height: 261px;
+    }
+
+    .grp_el_text h1:first-child{
+        font-size: 50px;
+    }
+    .grp_el_text h1:last-of-type{
+        font-size: 50px;
+    }
+
+    .grp_title_1 {
+        font-size: 50px;
+    }
+
+    .grp_title_2 {
+        font-size: 50px;
+    }
+
+    .grp_slider_wrapper{
+        max-width: 376px;
+    }
+
+    .get_ready_features_elem{
+        margin-top: 160px;
+    }
+
+    /* product lines */
+
+    .product_lines_container{
+        max-width: 376px;
+    }
+
+    .product_lines_wrapper {
+        margin-top: 250px;
+    }
+
+    /* complete independence */
+
+    .complete_independence_bg{
+        top: 867px;
+    }
+
+    .complete_independence_title h1{
+        color:#363636;
+        font-size: 70px;
+    }
+
+    .unlimited_adapt h1,.unlimited_adapt p{
+        color: #fff;
+    }
+
+    .unlimited_parameters_elem h1,.unlimited_parameters_elem span{
+        color: #fff;
+    }
+
+    .time_to_embrace h1 {
+        color: #fff;
+    }
+
+    /* car scheme */
+
+    .car_scheme_elem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car_scheme_elem h1{
+        text-align: center;
+    }
+
+    .car_scheme_elem p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .car_scheme_slider_wrapper {
+        margin: 28px auto 0 auto;
+        max-width: 376px;
+    }
+
+    .floorplan_support {
+        max-width: 376px;
+        margin: 85px auto 0 auto;
+    }
+
+    /* design highlights */
+
+    .design_highlights__title{
+        max-width: 376px;
+        margin: 0 auto;
+    }
+
+    .design_highlights__title h1:first-child,.design_highlights__title h1:last-child{
+        font-size: 80px;
+    }
+
+    .design_highlights_wrapper{
+        max-width: 376px;
+        margin: 0 auto;
+    }
+
+    /* careers */
+    .careers_title {
+        font-size: 100px;
+    }
+
+    /* work and wander */
+    .fog_title{
+        max-width: 376px;
+        margin: -50px auto 0 auto;
+    }
+
+    .fog_title h1{
+        color: #363636;
+        font-size: 58px;
+        font-weight: 400;
+        line-height: 80%; /* 96px */
+        letter-spacing: -6px;
+      }
+      
+      .fog_title h1:nth-child(1){
+        font-family: DM Serif Display;
+      }
+      
+      .fog_title h1{
+        font-weight: 600;
+        font-family: Montserrat;
+      }
+
+      .feedback_slider_wrapper{
+        padding-top: 174px;
+      }
+
+    .work_and_wander_interview a{
+        font-size: 14px;
+    }
+    /* contacts(footer) */
+
+    .we_are_here_container{
+        max-width: 376px;
+        margin: 0 auto;
+    }
+
+    .contacts_menu{
+        display: none;
+    }
+
+    .contacts_wrapper{
+        flex-direction: column;
+    }
+
+}
+
+
